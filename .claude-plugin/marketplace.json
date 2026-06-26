@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "patriciaspascoa",
+  "description": "Skills gratuitas para Claude Code por Patrícia Sales",
+  "owner": {
+    "name": "Patrícia Sales",
+    "url": "https://github.com/patriciaspascoa"
+  },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "description": "Elimina AI Slop e reescreve textos para soar natural, preservando a voz da autora. Ideal para e-mails e redes sociais.",
+      "author": {
+        "name": "Patrícia Sales"
+      },
+      "source": "./humanizer",
+      "category": "writing"
+    }
+  ]
+}
