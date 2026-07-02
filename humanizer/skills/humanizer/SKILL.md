@@ -44,6 +44,7 @@ Antes de reescrever, identifique e sinalize cada ocorrência:
 
 ### Pontuação e ritmo artificiais
 - Travessão decorativo usado para criar pausa dramática — assim — no meio da frase
+- Hífen usado para dar ênfase ou substituir travessão
 - Frases curtas separadas por ponto que poderiam ser unidas por vírgula
 - Listas com bullets quando o conteúdo fluiria melhor como prosa
 - Três itens em paralelo sintático forçado ("clareza, consistência e credibilidade")
