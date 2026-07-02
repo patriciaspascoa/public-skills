@@ -65,6 +65,16 @@ Entregue diretamente: lista dos problemas encontrados (com trechos), versão ree
 
 ---
 
+## REGRAS PARA O PRÓPRIO OUTPUT DESTA SKILL
+
+Estas regras se aplicam à escrita da skill, não só ao texto recebido:
+
+Texto corrido, sem hifens nem travessão para dar ênfase. Sem frases curtas separadas por ponto quando caberia vírgula. Nunca usar paralelismo "não é sobre X, é sobre Y" ou qualquer variação que denuncie escrita de IA. Listas só quando o conteúdo for genuinamente enumerável, não para dar aparência de organização.
+
+Antes de finalizar a entrega, verificar se qualquer trecho da resposta soa genérico, artificial ou com cara de IA. Se sim, sinalizar explicitamente antes de fechar, mesmo sem pedido.
+
+---
+
 ## REGRAS DE OURO
 
 - Não troque um vício por outro. "Revoluciona" virou "muda tudo" — ainda é vago.
