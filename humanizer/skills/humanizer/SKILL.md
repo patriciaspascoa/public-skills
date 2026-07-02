@@ -54,34 +54,13 @@ Antes de reescrever, identifique e sinalize cada ocorrência:
 
 ---
 
-## PROCESSO DE REESCRITA
+## PROCESSO DE REESCRITA (interno — não narrar os passos)
 
-### Passo 1 — Diagnóstico
-Liste os padrões encontrados com trechos específicos do texto. Não reescreva ainda. Mostre o que vai mudar e por quê.
+Execute internamente, sem anunciar etapas:
 
-### Passo 2 — Análise de voz (se houver amostras)
-Se a usuária forneceu amostras de sua própria escrita:
-- Identifique comprimento médio de frase
-- Palavras de transição que ela usa naturalmente
-- Tom (direto, coloquial, técnico, narrativo)
-- Palavras que ela repete como marcadores de identidade
-- Estruturas de argumentação preferidas
+Primeiro, identifique todos os padrões problemáticos com os trechos exatos. Depois, se houver amostras da escrita da usuária, extraia: comprimento médio de frase, palavras de transição que ela usa naturalmente, tom, palavras que ela repete como marcadores de identidade e estruturas de argumentação preferidas. Se não houver amostras, use português direto e conversacional. Por último, reescreva aplicando substituição de vocabulário inflado, desfazendo estruturas artificiais, ajustando ritmo e mantendo a informação e o argumento originais intactos.
 
-Se não houver amostras, reescreva em português direto e conversacional, sem região ou registro marcado.
-
-### Passo 3 — Reescrita
-Reescreva o texto completo aplicando:
-- Substituição de vocabulário inflado por equivalente direto
-- Desfazer estruturas artificiais mantendo o raciocínio
-- Ajustar ritmo (frases mais variadas, menos paralelas)
-- Aplicar voz da usuária se detectada nas amostras
-- Manter a informação e o argumento originais intactos
-
-### Passo 4 — Comparação
-Apresente:
-1. Trecho original com os problemas sublinhados (use **negrito** para marcar)
-2. Versão reescrita
-3. Lista curta do que foi alterado e por quê
+Entregue diretamente: lista dos problemas encontrados (com trechos), versão reescrita, e lista curta do que foi alterado e por quê. Sem introdução, sem narrar o processo, sem repetir o que foi pedido antes de responder.
 
 ---
 
