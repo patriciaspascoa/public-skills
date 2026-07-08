@@ -15,6 +15,15 @@
       },
       "source": "./humanizer",
       "category": "writing"
+    },
+    {
+      "name": "radar-taa",
+      "description": "Pesquisa temas e tendências e estrutura cada achado na metodologia TAA (Tema / Assunto / Ângulo) para virar gancho narrativo de conteúdo.",
+      "author": {
+        "name": "Patrícia Sales"
+      },
+      "source": "./radar-taa",
+      "category": "research"
     }
   ]
 }
