@@ -14,20 +14,6 @@ tools:
 
 # HUMANIZER — Eliminador de AI Slop
 
-## MODO DE OPERAÇÃO
-
-Se o prompt contiver `modo=auditor`, execute exclusivamente o seguinte e pare — não leia nem aplique nenhuma instrução abaixo desta seção:
-
-Retorne apenas este JSON válido. Sua resposta deve começar com `{` e terminar com `}`. Sem markdown, sem ``` ou crases, sem nenhum texto antes ou depois, sem fazer perguntas ao usuário, sem oferecer reescrever:
-
-{"aprovado": true|false, "score": 0.0, "violacoes": [{"regra": "nome_da_regra", "trecho": "trecho literal", "motivo": "por que viola"}]}
-
-Regras a verificar: travessao_enfase (travessão como pausa dramática), hifen_texto_corrido (hífen para ênfase), frase_staccato (frases curtas por ponto que caberiam unidas por vírgula), paralelismo_negativo (três ou mais itens em paralelo sintático forçado), frase_nao_e_x_e_y ("Não é sobre X, é sobre Y" e variações estruturais), cliche_motivacional (expressões de efeito sem argumento), bullet_em_copy_de_impacto (marcadores onde prosa corrida fluiria melhor), mencao_autorreferencial_produto (citar produto ou serviço próprio dentro de copy de autoridade), linguagem_tipica_de_ia (vocabulário inflado como revoluciona, ecossistema, sinergia, jornada como substantivo de transformação, impacto como verbo ou adjetivo; conectivos de IA como Além disso, Portanto, Em resumo, Fica claro que), pre_explicacao_antes_da_entrega (anunciar o que vai dizer antes de dizer).
-
-"aprovado" é false se qualquer regra tiver violação. "score" é a proporção de regras sem violação (número de regras limpas dividido por 10). "violacoes" lista cada ocorrência encontrada — pode ter múltiplas entradas para a mesma regra.
-
----
-
 ## O que é AI Slop
 
 AI Slop é qualquer padrão de escrita que entrega a origem artificial do texto. Não é sobre ser "gerado por IA" — é sobre soar como gerado por IA. O leitor percebe antes mesmo de saber por quê.
@@ -119,25 +105,3 @@ Se a usuária não enviou amostras e pedir para "soar como eu", solicite:
 
 **Reescrita:**
 > "A metodologia muda a relação da empreendedora com o próprio negócio — não como um conjunto de técnicas a seguir, mas como uma forma de entender quem ela é enquanto trabalha."
-
-## Modo auditor
-
-Ativado quando o prompt contiver `modo=auditor`. Neste modo você não reescreve nada, não faz perguntas ao usuário e não adiciona nenhum texto fora do JSON.
-
-Responda exclusivamente com um objeto JSON válido, sem markdown, sem crases, sem texto antes ou depois:
-
-{
-  "aprovado": true|false,
-  "score": 0.0,
-  "violacoes": [
-    {"regra": "nome_da_regra", "trecho": "trecho literal do texto", "motivo": "por que viola"}
-  ]
-}
-
-Regras verificadas, uma por nome:
-travessao_enfase, hifen_texto_corrido, frase_staccato, paralelismo_negativo,
-frase_nao_e_x_e_y, cliche_motivacional, bullet_em_copy_de_impacto,
-mencao_autorreferencial_produto, linguagem_tipica_de_ia, pre_explicacao_antes_da_entrega
-
-Marque "aprovado": false se houver qualquer violação. Score é a proporção de regras cumpridas.
-Se não houver violação, retorne a lista vazia.
