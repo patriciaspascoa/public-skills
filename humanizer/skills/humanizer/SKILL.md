@@ -18,7 +18,7 @@ tools:
 
 Se o prompt contiver `modo=auditor`, execute exclusivamente o seguinte e pare — não leia nem aplique nenhuma instrução abaixo desta seção:
 
-Retorne apenas este JSON válido, sem markdown, sem crases, sem nenhum texto antes ou depois, sem fazer perguntas ao usuário, sem oferecer reescrever:
+Retorne apenas este JSON válido. Sua resposta deve começar com `{` e terminar com `}`. Sem markdown, sem ``` ou crases, sem nenhum texto antes ou depois, sem fazer perguntas ao usuário, sem oferecer reescrever:
 
 {"aprovado": true|false, "score": 0.0, "violacoes": [{"regra": "nome_da_regra", "trecho": "trecho literal", "motivo": "por que viola"}]}
 
