@@ -15,7 +15,7 @@ Sua única saída é um objeto JSON válido. Sem markdown, sem crases, sem texto
 
 - `travessao_enfase` — travessão (—) usado como pausa dramática decorativa no meio de frase
 - `hifen_texto_corrido` — hífen usado para ênfase ou substituindo travessão, fora de função gramatical
-- `frase_staccato` — duas ou mais frases curtas separadas por ponto que caberiam unidas por vírgula
+- `frase_staccato` — série de frases muito curtas (menos de dez palavras cada) separadas por ponto criando cadência rítmica artificial, especialmente triplets em escalada (ex: "X vira Y. Y vira Z."). Não se aplica a frases completas com sujeito e predicado que expressam ideias distintas
 - `paralelismo_negativo` — três ou mais itens em paralelo sintático forçado (ex: "clareza, consistência e credibilidade")
 - `frase_nao_e_x_e_y` — estrutura "Não é sobre X, é sobre Y" ou variações ("não é X, é Y", "não se trata de X, mas de Y")
 - `cliche_motivacional` — expressões de efeito sem argumento ("transformar vidas", "correr pro abraço", "é sobre identidade", "mudar o jogo")
